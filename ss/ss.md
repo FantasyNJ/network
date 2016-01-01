@@ -1,4 +1,3 @@
-<pre>
 #ubuntu14.04一键安装ss-python版
 ##本脚本适用环境：
 系统支持：CentOS 6，7，Debian，Ubuntu
@@ -43,7 +42,7 @@ Enjoy it!
 ./shadowsocks.sh uninstall
 ##单用户配置文件 Sample（2015 年 08 月 28 日修正）：
 配置文件路径：/etc/shadowsocks.json
-
+<pre>
 {
     "server":"0.0.0.0",
     "server_port":8989,
@@ -54,9 +53,10 @@ Enjoy it!
     "method":"aes-256-cfb",
     "fast_open": false
 }
+</pre>
 ##多用户多端口配置文件 Sample（2015 年 08 月 28 日修正）：
 配置文件路径：/etc/shadowsocks.json
-
+<pre>
 {
     "server":"0.0.0.0",
     "local_address":"127.0.0.1",
@@ -72,6 +72,7 @@ Enjoy it!
     "method":"aes-256-cfb",
     "fast_open": false
 }
+</pre>
 ##使用命令（2015 年 08 月 28 日修正）：
 启动：/etc/init.d/shadowsocks start
 停止：/etc/init.d/shadowsocks stop
@@ -79,4 +80,3 @@ Enjoy it!
 状态：/etc/init.d/shadowsocks status
 
 参考链接:https://teddysun.com/342.html
-</pre>
